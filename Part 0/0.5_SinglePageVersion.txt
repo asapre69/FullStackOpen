@@ -1,0 +1,13 @@
+title 0.5: Single Page Version
+
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa
+server --> browser: HTML code
+
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+server --> browser: main.css file
+
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa.js
+server --> browser: spa.js file
+
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+server --> browser: data.json file

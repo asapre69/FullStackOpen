@@ -1,0 +1,23 @@
+title 0.6: New Note on SPA
+
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa
+server --> browser: HTML code
+
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+server --> browser: main.css file
+
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa.js
+server --> browser: spa.js file
+
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+server --> browser: data.json file
+
+note over browser:
+We Enter the word "clown" into the textbox to be posted.
+Hence, the browser uses the post method to send my data to the server
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/data.json
+server --> browser: data.json file
+
+
